@@ -1,0 +1,31 @@
+# Data files — do not commit large datasets
+*.csv
+*.tsv
+*.parquet
+*.feather
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+*.so
+.env
+.venv/
+venv/
+env/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
